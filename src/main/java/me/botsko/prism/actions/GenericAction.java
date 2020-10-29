@@ -49,7 +49,7 @@ public abstract class GenericAction implements Handler {
         epoch = System.currentTimeMillis() / 1000;
     }
 
-    protected static Gson gson() {
+    public static Gson gson() {
         return GenericAction.gson;
     }
 
